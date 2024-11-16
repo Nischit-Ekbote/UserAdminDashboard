@@ -1,0 +1,78 @@
+.modal{
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modal__data__container{
+    background-color: white;
+    min-width: 300px;
+    min-height: 200px;
+    padding:40px 40px;
+    border-radius: 20px;
+}
+
+.modal__nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.modal__x{
+    cursor: pointer;
+    background-color: var(--primary);
+    border-radius: 100px; 
+    padding: 10px;
+}
+
+.modal__data{
+    display:flex;
+    gap:10px;
+    padding-top:20px ;
+    flex-direction: column;
+}
+
+.link-text{
+    color:blue;
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.modal__button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    gap:10px;
+}
+
+.edit__button{
+    cursor: pointer;
+    border: 1px solid var(--secondary);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--primary);
+}
+
+.edit__button:hover{
+    border-color: var(--primary);
+    background-color: var(--secondary);
+}
+
+.delete__button{
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--secondary);
+}
+
+.delete__button:hover{
+    background-color: var(--primary);
+}

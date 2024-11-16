@@ -1,0 +1,13 @@
+:root{
+    --primary: #D5D2FD ;
+    --secondary:#FCF8F5;
+    --ternary: #827DC1;
+}
+
+html,body{
+    background-color: var(--secondary) ;
+}
+
+*{
+    margin:0px;
+}

@@ -1,0 +1,43 @@
+.navBar{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 20px;
+}
+
+.navBar h1{
+    width:fit-content;
+    font-size:30px;
+    
+}
+
+.navBar form{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.navBar input{
+    outline:none;
+    border:0px;
+    height:100%;
+    border-radius: 100px;
+    width: 200px;
+    padding:0px 20px
+}
+
+.navBar button{
+    border:0px;
+    background-color: var(--primary);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100px 100px 100px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
