@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Card from "./components/card/Card";
 import { Search } from "lucide-react";
-import './app.css';
+import './App.css';
 import Modal from "./components/modal/Modal";
 
 function App() {
