@@ -6,7 +6,6 @@ function Modal({item, closeModal, deleteItem}) {
     const { address } = item;
     
     const handleWebsiteClick = (website) => {
-        // Open website in new tab with proper URL formatting
         const url = website.startsWith('http') ? website : `https://${website}`;
         window.open(url, '_blank', 'noopener noreferrer');
     };
